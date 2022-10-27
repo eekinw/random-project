@@ -1,0 +1,68 @@
+
+html {
+    line-height: 1.15;
+}
+
+
+body {
+    padding: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+
+.nav-bar {
+    background-color: grey;
+    height: 40px;
+    font-size: x-large;
+
+}
+
+.card-container {
+    max-height: none;
+ 
+}
+.container-row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    justify-content: space-around;
+
+}
+
+.card {
+    display: flex;
+   flex-direction: column;
+   border: 2px solid black;
+   max-height: 300vh ;
+   max-width: 500px;
+}
+
+.cat-image {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    opacity: 0;
+    align-self: center;
+}
+
+
+
+.cat-name {
+    align-self: center;
+}
+
+.cat-description {
+    align-self: center;
+    
+}
+
+.btn {
+    width: 200px;
+    align-self: center;
+    margin-top: auto;
+}
